@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+$font-family:'Montserrat', sans-serif;
+
+*{
+    box-sizing: border-box;
+    body{
+        padding: 2vh 5vh 2vh 5vh ;
+        background-color: #8F8F8F;
+        
+        #container{
+            background-color: white;
+            width: 100%;
+            border-radius: 2px;
+            padding: 5vh;
+            #nav_bar{
+                width: 45%;
+                font-family: $font-family;
+                font-weight: 500;
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                #dev{
+                    background-color: black;
+                    color: white;
+                    padding: 3px;
+                
+                }
+            }
+
+            #contents{
+                display: flex;
+                height: 100%;
+                #text_content{
+                    float: left;
+                    width: 50%;
+                    padding-left: 1.25rem ;
+                    height: 25vh;
+                    h1{
+                        font-size:5rem;
+                        font-family: $font-family;
+                        line-height:1.125;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-family: $font-family;
+                        width: 40%;
+                        font-weight: 700;
+                        font-size:1rem;
+                    }
+    
+                }
+
+                #rect_content{
+                    font-family: $font-family;
+                    display: flex;
+                    flex-basis: 50%;
+                    
+                    #first{
+                        
+                        
+                        flex-basis: 50%;
+                        padding: 1rem;
+                        #black{
+                            float: right;
+                            height: 20rem;
+                            width: 18rem;
+                            background-color: #060606;
+                            border-radius: 20px;
+                            padding: 2vh 3vh 2vh 3vh;
+                            #black_img{
+                                text-align: center;
+                                img{
+                                    width: auto;
+                                    height : auto;
+                                }
+                            }
+
+                            #black_content{
+                                .content_pre_title{
+                                    background-color: white;
+                                    display: inline-block;
+                                    padding: 0.25vh 1.5vh 0.25vh 1.5vh;
+                                    border-radius: 20px;
+                                }
+                                .content_title{
+                                    color: white;
+                                    font-size: 2rem;
+                                    margin-top: 0;
+                                    margin-bottom: 1vh;
+                                    font-weight:600;
+                                }
+                                .content_desc{
+                                    color: white;
+                                    margin-top: 0;
+                                }
+                                button{
+                                    background-color:#32FFAA;
+                                    width: 100%;
+                                    height: 3rem;
+                                    border-radius: 10px;
+                                    font-size: 1rem;
+                                    font-weight: 600;
+                                }
+
+                            }
+                            
+                        }
+                        #yellow{
+                            float: right;
+                            margin-top:2rem ;
+                            height: 15rem;
+                            width: 18rem;
+                            background-color: #FFE86E;
+                            border-radius: 20px;
+                            padding: 2vh 3vh 2vh 3vh;
+                            #yellow_content{
+                                .content_pre_title{
+                                    color: #B29F3F;
+                                    font-size:1.25rem ;
+                                    letter-spacing: 0px;
+                                    font-weight: bold;
+                                    margin-bottom: 0.75rem;
+                                }
+                                .content_title{
+                                    color: black;
+                                    font-size: 1.75rem;
+                                    font-weight: bold;
+                                    letter-spacing: -1px;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+                                .content_subtitle{
+                                    color: #B29F3F;
+                                    font-size:1.25rem ;
+                                    letter-spacing: 0px;
+                                    font-weight: bold;
+                                    margin-top: 0.75rem;
+                                }
+                    
+    
+                            }
+                        }
+                    }
+                    #second{
+                        position: relative;
+                        top: -8%;
+                        flex-basis: 50%;
+                        padding: 1rem;
+                        #green{
+                            position: relative;
+                            top: 0px;
+                            left: 0px;
+                            margin-right: auto;
+                            margin-left: auto;
+                            margin-bottom:2rem ;
+                            height: 15rem;
+                            width: 18rem;
+                            background-color: #32FFAA;
+                            border-radius: 20px;
+                            padding: 2vh 3vh 2vh 3vh;
+                            #green_content{
+                                .content_pre_title{
+                                    color: #0ea363;
+                                    font-size:1.25rem ;
+                                    letter-spacing: 0px;
+                                    font-weight: bold;
+                                    margin-bottom: 0.75rem;
+                                }
+                                .content_title{
+                                    color: black;
+                                    font-size: 1.75rem;
+                                    font-weight: bold;
+                                    letter-spacing: -1px;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+                                .content_subtitle{
+                                    color: #0ea363;
+                                    font-size:1.25rem ;
+                                    letter-spacing: 0px;
+                                    font-weight: bold;
+                                    margin-top: 0.75rem;
+                                }
+                    
+    
+                            }
+                        }
+                        #grey{
+                            margin-right: auto;
+                            margin-left: auto;
+                            height: 20rem;
+                            width: 18rem;
+                            background-color: #D9D9D9;
+                            border-radius: 20px;
+                            padding: 2vh 3vh 2vh 3vh;
+                            #grey_img{
+                                text-align: center;
+                                img{
+                                    width: auto;
+                                    height : auto;
+                                }
+                            }
+                            .content_pre_title{
+                                background-color: black;
+                                color: white;
+                                display: inline-block;
+                                padding: 0.25vh 1.5vh 0.25vh 1.5vh;
+                                border-radius: 20px;
+                            }
+                            .content_title{
+                                color: black;
+                                font-size: 2rem;
+                                margin-top: 0;
+                                margin-bottom: 1vh;
+                                font-weight:600;
+                            }
+                            .content_desc{
+                                color: black;
+                                margin-top: 0;
+                            }
+                            button{
+                                background-color: black;
+                                color: white;
+                                width: 100%;
+                                height: 3rem;
+                                border-radius: 10px;
+                                font-size: 1rem;
+                                font-weight: 600;
+                            }
+                            
+
+                        }
+                    }
+
+                }
+
+            }
+            #stat{
+                font-family: $font-family;
+                text-align: center;
+                position: absolute;
+                top: 30rem;
+                width: 35vw;
+                display: flex;
+                #first{
+                    flex-basis: 33%;
+                }
+                #second{
+                    align-items: center;
+                    flex-basis: 33%;
+                    height: 20vh;
+                    border-left: 2px solid black;
+                    border-right: 2px solid black;
+                }
+                #third{
+                    flex-basis: 33%;
+                }
+                .stat_content{
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        font-size: 3rem;
+                        margin: 0;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+
+            
+            
+        }
+
+    }
+
+
+
+    
+
+}
+
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left_menu">
+            <h2>Hirelly.</h2>
+
+            <nav id="nav_first">
+                <li class="nav_elt nav_elt_activate"><img src="data/dash.svg" alt="dash"><span> Dashboard</span></li>
+                <li class="nav_elt"><img src="data/app.svg" alt="app"><span> My Application</span></li>
+                <li class="nav_elt"><img src="data/message.svg" alt="message"><span>Messages</span> </li>
+                <li class="nav_elt"><img src="data/job.svg" alt="job"><span>Job Search</span> </li>
+                <li class="nav_elt"><img src="data/companies.svg" alt="companies"><span>Explore Compagnies</span> </li>
+            </nav>
+
+            <p>SETTINGS</p>
+
+            <nav id="nav_second">
+                <li><img src="data/setting.svg" alt="setting"> Settings</li>
+                <li><img src="data/help.svg" alt="help"> Help Support</li>
+            </nav>
+        </div>
+
+        <div id="right_content">
+            <div id="top">
+                <h1 id="title">
+                    Dashboard
+                </h1>
+                
+                <div id="right_part">
+                    <img src="data/search.svg" alt="search">
+                    <input type="text" placeholder="Search anything here ... ">
+                    <img src="data/bell.svg" alt="bell" id="bell">
+                </div>
+            </div>
+            <hr>
+            <div id="stat">
+                <div class="stat_card" id="first"></div>
+                <div class="stat_card" id="second">
+                    <h2 id="title">
+                        Job Applied
+                    </h2>
+                    <img src="data/chart.png" alt="chart">
+                    <br>
+                    <a href="#">View All Job Applied ></a>
+                </div>
+                <div class="stat_card" id="third">
+                    <h2 id="title">Upcoming Interview</h2>
+                        
+                        <div class="third_card">
+                            <div class="card_date"> <b> Today </b> Jan 12, 2022</div>
+                            <div class="card_content">
+                                <img src="data/perso.png" alt="perso">
+                                <div id="content_text">
+                                    <span class="name">Alexa Russel</span><br>
+                                    <span class="job">HR at DigitalOcean</span>
+                                </div>
+                                <span class="hour">10.00 - 11.00</span>
+                            </div>
+                        </div>
+                        <br>
+                        <a href="#">View All Job Applied ></a>
+                    
+                </div>
+            </div>
+            <div  id="apps">
+                <div class="app_elt" id="first">
+                    <h2 id="title">Recent Applications History</h2>
+                    <h3 class="date">TODAY</h2>
+                    <div class="card">
+                        <img src="data/revolut.png" alt="duck">
+                        <div class="card_text">
+                            <b>3D Artist - Performance Marketing</b> <br>
+                            Revolut ⸱ Full-Time ⸱ Poland
+                        </div>
+                        <div class="card_reminder_yellow">
+                            <span>In-review</span> 
+                        </div>
+                    </div>
+
+                    <h3 class="date">DEC 21, 2021</h2>
+                        <div class="card">
+                            <img src="data/recurrency.png" alt="duck">
+                            <div class="card_text">
+                                <b>3D Artist - Performance Marketing</b> <br>
+                                DigitalOcean ⸱ Full-Time ⸱ Remote
+                            </div>
+                            <div class="card_reminder">
+                                <span>Declined</span> 
+                            </div>
+                        </div>
+                    <p>
+                        <a href="#"> View All Applications History ></a>
+                    </p>
+                </div>
+
+                <div class="app_elt" id="second">
+                    <h2 id="title">Saved jobs</h2>
+                    <div class="card">
+                        <img src="data/duck.png" alt="duck">
+                        <div class="card_text">
+                            <b>Senior IT operations Engineer</b> <br>
+                            DuckDuckGO ⸱ Full-Time ⸱ Worldwide
+                        </div>
+                        <div class="card_reminder">
+                            <span>2 days to apply</span> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <img src="data/cashapp.png" alt="duck">
+                        <div class="card_text">
+                            <b>Senior IT operations Engineer</b> <br>
+                            DuckDuckGO ⸱ Full-Time ⸱ Worldwide
+                        </div>
+                        <div class="card_reminder">
+                            <span>2 days to apply</span> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <img src="data/fireart.png" alt="duck">
+                        <div class="card_text">
+                            <b>Senior IT operations Engineer</b> <br>
+                            DuckDuckGO ⸱ Full-Time ⸱ Worldwide
+                        </div>
+                        <div class="card_reminder">
+                            <span>2 days to apply</span> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <img src="data/avocode.png" alt="duck">
+                        <div class="card_text">
+                            <b>Senior IT operations Engineer</b> <br>
+                            DuckDuckGO ⸱ Full-Time ⸱ Worldwide
+                        </div>
+                        <div class="card_reminder">
+                            <span>2 days to apply</span> 
+                        </div>
+                    </div>
+                    <p>
+                        <a href="#"> View Saved Jobs ></a>
+                    </p>
+                    
+                </div>
+
+                
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

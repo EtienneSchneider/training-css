@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  background-color: #f9f4ee;
+  padding: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+}
+body #container {
+  display: flex;
+}
+body #container #left_menu {
+  border-radius: 15px;
+  padding: 2rem 1rem 5rem 0;
+  background-color: #010516;
+  color: white;
+  height: 100%;
+  flex-basis: 15%;
+}
+body #container #left_menu h2 {
+  margin-top: 0;
+  margin-left: 2rem;
+}
+body #container #left_menu nav {
+  list-style: none;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+body #container #left_menu nav li {
+  padding: 1rem 0 1rem 2rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+body #container #left_menu nav li img {
+  margin-right: 1rem;
+}
+body #container #left_menu nav .nav_elt:hover {
+  background-color: #1430B4;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body #container #left_menu nav .nav_elt_activate {
+  background-color: #1430B4;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+body #container #left_menu p {
+  padding-left: 2rem;
+  color: grey;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+body #container #left_menu a {
+  text-decoration: none;
+  color: #FAF8F6;
+  margin-top: 3rem;
+}
+body #container #left_menu #nav_second {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body #container #right_content {
+  flex-basis: 85%;
+  padding: 2rem 1.5rem 1.5rem 2rem;
+}
+body #container #right_content hr {
+  opacity: 0.5;
+}
+body #container #right_content #top {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+body #container #right_content #top #title {
+  margin-bottom: 3rem;
+}
+body #container #right_content #top input {
+  margin-top: 0;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+body #container #right_content #top img {
+  margin: 0 1rem 1rem 0;
+  cursor: pointer;
+}
+body #container #right_content #top #right_part {
+  margin-bottom: 1rem;
+  display: flex;
+  position: absolute;
+  left: 75%;
+}
+body #container #right_content #top #right_part #bell {
+  margin-left: 2rem;
+}
+body #container #right_content #stat {
+  display: flex;
+}
+body #container #right_content #stat .stat_card {
+  background-color: white;
+  height: 15rem;
+  border-radius: 10px;
+}
+body #container #right_content #stat #first {
+  flex-basis: 32%;
+  background-image: url("data/gradient.png");
+  background-size: cover;
+}
+body #container #right_content #stat #second {
+  flex-basis: 23%;
+  margin: 0 2% 0 2%;
+}
+body #container #right_content #stat #second h2 {
+  margin: 1rem 0 1rem 2rem;
+}
+body #container #right_content #stat #second img {
+  height: auto;
+  width: 200px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+body #container #right_content #stat #second a {
+  text-decoration: none;
+  color: #232EC0;
+  margin: 0 0 2rem 2rem;
+  font-weight: bold;
+}
+body #container #right_content #stat #third {
+  flex-basis: 41%;
+}
+body #container #right_content #stat #third h2 {
+  margin: 1rem 0 1rem 2rem;
+}
+body #container #right_content #stat #third .third_card {
+  padding-right: 1.5rem;
+  height: auto;
+  margin: 1rem 0 0 2rem;
+}
+body #container #right_content #stat #third .third_card .card_date {
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+body #container #right_content #stat #third .third_card .card_content {
+  background-color: #F2F2FD;
+  border: solid 2px #232EC0;
+  border-radius: 10px;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+body #container #right_content #stat #third .third_card .card_content img {
+  border-radius: 50%;
+  height: auto;
+  width: 50px;
+}
+body #container #right_content #stat #third .third_card .card_content .hour {
+  float: right;
+  margin-left: 7rem;
+}
+body #container #right_content #stat #third a {
+  text-decoration: none;
+  color: #232EC0;
+  margin: 1rem 0 1rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body #container #right_content #apps {
+  display: flex;
+  justify-content: space-between;
+}
+body #container #right_content #apps .app_elt {
+  margin-top: 1.5rem;
+  background-color: white;
+  height: 20rem;
+  border-radius: 10px;
+  flex-basis: 49%;
+}
+body #container #right_content #apps #first h2 {
+  margin: 1rem 0 1rem 2rem;
+}
+body #container #right_content #apps #first p {
+  margin-top: 1rem;
+}
+body #container #right_content #apps #first p a {
+  text-decoration: none;
+  color: #232EC0;
+  margin: 1rem 0 1rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+body #container #right_content #apps #first h3 {
+  color: grey;
+  margin: 1rem 0 1rem 2rem;
+  font-size: 1rem;
+}
+body #container #right_content #apps #first .card {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+body #container #right_content #apps #first .card img {
+  height: 40px;
+  width: 40px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+body #container #right_content #apps #first .card .card_text {
+  font-size: 0.75em;
+}
+body #container #right_content #apps #first .card hr {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+body #container #right_content #apps #first .card .card_reminder_yellow {
+  margin-left: 9rem;
+  background-color: #FFF4EA;
+  color: #DEBA9B;
+  border-radius: 20px;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+body #container #right_content #apps #first .card .card_reminder {
+  margin-left: 9rem;
+  background-color: #FFE4E5;
+  color: #e09291;
+  border-radius: 20px;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+body #container #right_content #apps #second h2 {
+  margin: 1rem 0 1rem 2rem;
+}
+body #container #right_content #apps #second p {
+  margin-top: 1rem;
+}
+body #container #right_content #apps #second p a {
+  text-decoration: none;
+  color: #232EC0;
+  margin: 1rem 0 1rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+body #container #right_content #apps #second .card {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+body #container #right_content #apps #second .card img {
+  height: 40px;
+  width: 40px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+body #container #right_content #apps #second .card .card_text {
+  font-size: 0.75em;
+}
+body #container #right_content #apps #second .card hr {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+body #container #right_content #apps #second .card .card_reminder {
+  margin-left: 5rem;
+  background-color: #FFE4E5;
+  color: #e09291;
+  border-radius: 20px;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

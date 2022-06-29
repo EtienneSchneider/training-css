@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  overflow-x: hidden;
+  background-color: #F6F5EE;
+  font-family: "Montserrat", sans-serif;
+}
+body #navbar {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding: 2rem 1rem 0 13rem;
+}
+body #navbar nav {
+  justify-content: space-around;
+  display: flex;
+  flex-basis: 50%;
+  font-size: 1.25rem;
+}
+body #navbar h1 {
+  margin-right: 9rem;
+}
+body #navbar #login {
+  margin-left: 9rem;
+}
+body #navbar #login a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+body #navbar #login button {
+  width: auto;
+  padding: 0 1.5rem 0 1.5rem;
+  background-color: black;
+  color: white;
+  font-size: 1.25rem;
+  height: 3.5rem;
+}
+body #page_container {
+  display: flex;
+}
+body #page_container #content {
+  padding: 6rem 0 0 13rem;
+  width: 35vw;
+}
+body #page_container #content #content_title {
+  font-size: 5rem;
+  font-weight: 900;
+  padding: 0 3rem 0 0;
+}
+body #page_container #content #content_desc {
+  color: gray;
+  padding: 2rem 5rem 0 0;
+  font-size: 1.75rem;
+}
+body #page_container #content #under_content {
+  display: flex;
+  padding: 3rem 5rem 0 0;
+}
+body #page_container #content #under_content button {
+  padding: 0 3rem 0 3rem;
+  width: auto;
+  height: 4rem;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+body #page_container #content #under_content #call_part {
+  display: flex;
+  margin-left: 2rem;
+}
+body #page_container #content #under_content #call_part img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+body #page_container #content #under_content #call_part #call_text {
+  margin-top: 0;
+}
+body #page_container #hero {
+  margin: 2rem 5rem;
+}
+body #page_container #hero #hero_img {
+  width: 50rem;
+  height: 40rem;
+}
+body #page_container #hero #logos {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+body #page_container #hero #logos .logo {
+  width: 11rem;
+}/*# sourceMappingURL=style.css.map */
